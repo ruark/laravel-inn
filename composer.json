@@ -1,0 +1,19 @@
+{
+  "name": "ruark/laravel-inn",
+  "description": "INN validation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuriy Ruark",
+      "email": "yl.ruark@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ruark\\LaravelInn\\": "src/"
+    }
+  }
+}
