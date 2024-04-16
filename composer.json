@@ -1,15 +1,21 @@
 {
   "name": "ruark/laravel-inn",
   "description": "INN validation",
+  "keywords": [
+    "inn",
+    "validation",
+    "laravel"
+  ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Yuriy Ruark",
+      "name": "Yuriy Lysyanskii",
       "email": "yl.ruark@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.4"
+    "php": "^7.4.0",
+    "laravel/framework": "^5.8.0"
   },
   "autoload": {
     "psr-4": {
