@@ -143,7 +143,7 @@ class InnValidator
      */
     protected function defineBelonging(string $value): bool
     {
-        $rules = config('inn.len_rules ');
+        $rules = config('inn.len_rules');
         $len = strlen($value);
         if (array_key_exists($len, $rules)) {
             $this->belonging = $rules[$len];
