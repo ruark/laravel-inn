@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-composer require ruark/laraval-inn
+composer require ruark/laravel-inn
 ```
 ## Service Provider
 
