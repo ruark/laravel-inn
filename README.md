@@ -54,6 +54,14 @@ $rules = [
 $validator = Validator::make($request->all(), $rules);
 ```
 
+#### Изменение текста ошибки 
+
+Для изменения текста ошибки, добавьте в языковой файл `lang/**/validation.php` элемент со своим значением:
+
+```php
+'inn' => 'The :attribute has an invalid INN.',
+```
+
 ## Лицензия (MIT)
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
