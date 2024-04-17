@@ -1,6 +1,6 @@
 {
   "name": "ruark/laravel-inn",
-  "description": "INN validation",
+  "description": "Laravel package for working with INN (Taxpayer identification number in Russia)",
   "keywords": [
     "inn",
     "validation",
