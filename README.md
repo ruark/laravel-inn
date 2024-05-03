@@ -1,6 +1,6 @@
-# Laravel INN Package
+# Laravel INN Validation
 
-Пакет для работы с ИНН (идентификационный номер налогоплательщика).
+Пакет для валидации ИНН (идентификационный номер налогоплательщика).
 
 ## Установка
 
@@ -61,6 +61,10 @@ $validator = Validator::make($request->all(), $rules);
 ```php
 'inn' => 'The :attribute has an invalid INN.',
 ```
+
+## Тесты
+
+`vendor/ruark/laravel-inn/tests/InnValidatorTest.php`
 
 ## Лицензия (MIT)
 
