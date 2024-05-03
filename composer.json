@@ -1,6 +1,6 @@
 {
   "name": "ruark/laravel-inn",
-  "description": "Laravel package for working with INN (Taxpayer identification number in Russia)",
+  "description": "Laravel package for INN Validation (Taxpayer identification number in Russia)",
   "keywords": [
     "inn",
     "validation",
@@ -17,9 +17,17 @@
     "php": "^7.4.0",
     "laravel/framework": "^5.8.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
   "autoload": {
     "psr-4": {
       "Ruark\\LaravelInn\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ruark\\LaravelInn\\Tests\\": "tests/"
     }
   }
 }

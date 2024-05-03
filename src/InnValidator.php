@@ -11,7 +11,7 @@ class InnValidator
     /**
      * @throws InnValidationException
      */
-    public function validate(?string $value, array $parameters): bool
+    public function validate(?string $value, array $parameters = []): bool
     {
         // l - legal, i - individual, null - all
         $spec = $parameters[0] ?? null;
